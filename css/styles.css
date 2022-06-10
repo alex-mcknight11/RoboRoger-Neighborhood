@@ -1,0 +1,29 @@
+body {
+  background-color: Gainsboro;
+}
+
+h1 {
+  text-align: center;
+  color: firebrick;
+}
+
+#image {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: firebrick;
+}
+
+#entry {
+  text-align: center;
+}
+
+#stringOutput {
+  text-align: center;
+}
+
+#source {
+  text-align: center;
+}
