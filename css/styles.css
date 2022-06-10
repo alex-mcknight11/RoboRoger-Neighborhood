@@ -23,6 +23,10 @@ h3 {
 #stringOutput {
   text-align: center;
   color: firebrick;
+  overflow: hidden;
+  margin: 0 auto;
+  animation: typing 20s forwards;
+  blink-caret .75s step-end infine;
 }
 
 #source {
@@ -36,11 +40,6 @@ h3 {
   cursor: pointer;
 }
 
-#stringOutput{
-  overflow: hidden;
-  animation: typing 2s, blink-caret .75s step-end infine;
-}
-
 @keyframes typing {
   from {width: 0;}
   to {width: 100%}
@@ -48,5 +47,5 @@ h3 {
 
 @keyframes blink-caret {
   from, to {border-color: transparent }
-  50%
+  50% {border-color: firebrick;}
 }
