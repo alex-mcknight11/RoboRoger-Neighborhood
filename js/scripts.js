@@ -1,8 +1,4 @@
-//beepInput = '1';
-//boopInput = '2';
-//neighborInput = '3';
-
-//BUISINESS LOGIC
+//BUSINESS LOGIC
 function checkForMatch(number) {
 	let numberArray = [];
 	for (let i = 0; number >= i; i++) {
