@@ -25,7 +25,7 @@ h3 {
   color: firebrick;
   overflow: hidden;
   margin: 0 auto;
-  animation: typing 20s forwards;
+  animation: typing 20s forwards steps(40, end)
   blink-caret .75s step-end infine;
 }
 
