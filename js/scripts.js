@@ -14,7 +14,7 @@ function checkForMatch(number) {
 		} else if (element.includes('1')) {
 			numberArray.push(' Beep!');
 		} else {
-			numberArray.push(element);
+			numberArray.push(" " + element);
 		}
 	}
 	return numberArray;
