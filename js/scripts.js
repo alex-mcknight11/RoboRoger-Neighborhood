@@ -2,6 +2,7 @@
 //boopInput = '2';
 //neighborInput = '3';
 
+//BUISINESS LOGIC
 function checkForMatch(number) {
   let numberArray = [];
   for (let i = 0; number >= i; i++) {
@@ -21,5 +22,13 @@ function checkForMatch(number) {
       }
       return numberArray;
     }
-  }
-}
+
+    //UI LOGIC
+    $(document).ready(function () {
+      $('form').submit(function (event) {
+        event.preventDefault();
+        let numberSubmission = parseInt($('#inputField').val(), 10);
+        let numberArray = checkForMatch(numberSubmission);
+        $('#stringOutput').text(numberArray);
+      });
+    });
